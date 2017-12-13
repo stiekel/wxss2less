@@ -1,0 +1,31 @@
+{
+  "name": "wxss2less",
+  "version": "0.1.1",
+  "description": "rename wxss file to less",
+  "main": "wxss2less.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "wxss2less": "wxss2less.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stiekel/wxss2less.git"
+  },
+  "keywords": [
+    "wxss",
+    "less",
+    "rename"
+  ],
+  "author": "stiekel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stiekel/wxss2less/issues"
+  },
+  "homepage": "https://github.com/stiekel/wxss2less#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "shelljs": "^0.7.8"
+  }
+}
