@@ -41,6 +41,11 @@ wxssFiles.map(wf => {
   if (!r || r.code !== 0) {
     console.log('[FAILED]'.red, 'rename'.yellow, wf.cyan, 'to', path.basename(nwf).cyan)
   } else {
+    // replace .wxss to .less in file content
+    let content = fs.readFileSync(nwf, {
+      encoding: 'utf8'
+    })
+    fs.writeFileSync(nwf, content.replace(/\.wxss/g, '\.less'))
     successCnt++
     console.log('[SUCCESS]'.green, 'rename'.yellow, wf.cyan, 'to', path.basename(nwf).cyan)
   }

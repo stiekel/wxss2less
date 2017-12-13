@@ -1,6 +1,6 @@
 # wxss2less
 
-`wepy` project must import `less` file, but `weui-wsss` only provide `wxss` files, `wxss2less` can rename all wxss files in one folder to less by one line command.
+`wepy` project must import `less` file, but `weui-wsss` only provide `wxss` files, `wxss2less` can rename file name to `less`, and replace the `.wxss` to `.less` in `@import`.
 
 ## Install
 
